@@ -148,8 +148,11 @@ q: after{
   letter-spacing: 2px;
   color: rgb(60,60,60);
 }
-#About img{
-  width: 100%;
+.portrait{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 15px #444;
 }
 
 /************ Work Section **************/

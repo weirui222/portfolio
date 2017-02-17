@@ -3,11 +3,11 @@ var app = angular.module('PortfolioApp', ['ngAnimate', 'ui.bootstrap', 'ngRoute'
 app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider
   .when('/', {
-    templateUrl: '/views/home.html',
+    templateUrl: './views/home.html',
     controller: 'PageCtrl'
   })
   .otherwise({
-    templateUrl: 'views/404.html'
+    templateUrl: './views/404.html'
   });
 
   $locationProvider.html5Mode(false).hashPrefix('!');

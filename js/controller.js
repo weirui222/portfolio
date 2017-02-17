@@ -31,7 +31,6 @@ angular.module('appCtrl', [])
       type: "real"
     };
     let turnBlocks = $('.turnBlock');
-    console.log(turnBlocks.length);
     turnBlocks.turnBox(turnBoxOptions);
 
     var turnBoxOptions = {

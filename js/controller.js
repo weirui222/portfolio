@@ -18,7 +18,6 @@ angular.module('appCtrl', [])
 
   // turn box for work section
   $scope.onWorkLoaded = function(event) {
-    console.log('turnbox');
     var turnBoxOptions = {
       width: 450,
       height: 300,

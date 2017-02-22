@@ -154,7 +154,18 @@ q: after{
   border-radius: 50%;
   box-shadow: 3px 3px 15px #444;
 }
-
+.name{
+  text-align: center;
+  margin-top: -10px;
+  color: gray;
+  font-weight: bold;
+}
+.head{
+  margin-bottom: 30px;
+}
+.skill{
+  margin-top: 60px;
+}
 /************ Work Section **************/
 
 #Work{

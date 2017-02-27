@@ -19,8 +19,8 @@ angular.module('appCtrl', [])
   // turn box for work section
   $scope.onWorkLoaded = function(event) {
     var turnBoxOptions = {
-      width: 450,
-      height: 300,
+      width: 300,
+      height: 200,
       axis: "X",
       perspective: 800,
       duration: 200,
@@ -33,8 +33,8 @@ angular.module('appCtrl', [])
     turnBlocks.turnBox(turnBoxOptions);
 
     var turnBoxOptions = {
-      width: 450,
-      height: 300,
+      width: 300,
+      height: 200,
       axis: "X",
       perspective: 800,
       duration: 200,

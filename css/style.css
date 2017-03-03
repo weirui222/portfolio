@@ -40,7 +40,6 @@
 a.active,
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover{
-  border-bottom: 2px solid white;
   color: white;
   opacity: 1;
 }
@@ -82,6 +81,10 @@ a.active,
   background-color: rgba(60,60,60,0.9);
 }
 /************ Home Section **************/
+
+#header {
+  height: 700px;
+}
 
 img.bg {
   min-height: 100%;
@@ -137,12 +140,9 @@ q: after{
 /************ About Section **************/
 
 #About{
-  position: relative;
   background-color: white;
-  height: 100%;
-  top: 700px;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 100px;
+  padding-bottom: 100px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
@@ -170,12 +170,8 @@ q: after{
 
 #Work{
   background-color: gray;
-  position: relative;
-  height: auto;
-  min-height: 800px;
-  padding-top: 6%;
-  padding-bottom: 13%;
-  top: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   color: white;
 }
@@ -313,10 +309,8 @@ i {
 
 #Contact{
   background-color: white;
-  position: relative;
   height: 600px;
   padding-top: 100px;
-  top: 700px;
   color: gray;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
@@ -353,8 +347,6 @@ i {
 }
 #foot{
   height: 80px;
-  position: relative;
-  top: 700px;
   background-color: rgb(40,40,40);
 }
 #foot p{
@@ -366,11 +358,26 @@ i {
   color: white;
 }
 
+/* projects */
+.project-table {
+  max-width: 1200px;
+}
+
+@media (max-width: 991px) {
+  .project-table {
+    max-width: 800px;
+  }
+}
+
+.project {
+
+}
+
 /* TurnBlock */
 
 .turnBlock {
   cursor: pointer;
-  margin: 5px;
+  margin: 20px auto;
 }
 
 .turnBlock a {

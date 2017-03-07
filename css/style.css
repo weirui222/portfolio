@@ -166,6 +166,35 @@ q: after{
 .skill{
   margin-top: 60px;
 }
+.leftPortrait {
+  display: block;
+}
+.centerPortrait {
+  display: none;
+}
+.branding {
+  padding-left: 15px;
+  padding-top: 0;
+}
+@media (max-width: 991px) {
+  .leftPortrait {
+    display: none;
+  }
+  .centerPortrait {
+    display: block;
+    margin: 0 auto;
+  }
+  .branding {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+}
+@media (max-device-width: 480px) {
+  .branding {
+    font-size: 20px;
+  }
+}
+
 /************ Work Section **************/
 
 #Work{
